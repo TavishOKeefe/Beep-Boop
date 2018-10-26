@@ -7,20 +7,20 @@ function numberToConvert(number){
 
   }
   range.forEach(function(changeNumber){
-    if (changeNumber % 3 === 0){
+    if (changeNumber === 0){
+      converted.push("Beep!");
+    }
+    else if (changeNumber % 3 === 0){
       converted.push("I'm sorry, Dave. I'm afraid I can't do that.");
     }
-    // else if ( 10 < changeNumber < 20){
-    //   converted.push("Boop!");
-    // }
     else if (changeNumber % 10 === 1){
       converted.push("Boop!");
     }
     else if (changeNumber % 10 === 0){
       converted.push("Beep!");
     }
-    else if (changeNumber === 0){
-      converted.push("Beep!");
+    else if (changeNumber < 20 && changeNumber > 10){
+      converted.push("Boop!");
     }
     else {
       converted.push(changeNumber);
