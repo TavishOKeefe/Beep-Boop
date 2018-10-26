@@ -1,8 +1,12 @@
 function numberToConvert(number){
-  if (number % 3 === 0){
-    return "I'm sorry, Dave. I'm afraid I cant do that."
+
+  var range = [];
+  for (var i = 0; i <= number; i++){
+    range.push(i);
   }
+  return range;
 }
+
 
 
 
