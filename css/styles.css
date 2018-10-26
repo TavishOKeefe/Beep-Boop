@@ -1,0 +1,11 @@
+body {
+  font-family: courier, monospace;
+  margin: 15px;
+  background-color: #ECF0F1
+}
+
+.jumbotron {
+  background-color:  #85C1E9;
+  border: 4px solid black;
+  text-align: center;
+}
