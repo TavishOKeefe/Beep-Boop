@@ -1,6 +1,7 @@
 function numberToConvert(number){
 
   var range = [];
+  var converted = [];
   for (var i = 0; i <= number; i++){
     range.push(i);
     // if (number % 3 === 0){
@@ -11,7 +12,20 @@ function numberToConvert(number){
     //   range.push("Beep");
     // }
   }
-  return range;
+  range.forEach(function(divisiblyByThree){
+    if (divisiblyByThree % 3 === 0){
+      converted.push("sorry");
+    // } else if (divisiblyByThree === 10 || 11 || 21 || 31 || 41){
+    //   converted.push("Boop");
+    // } else if (divisiblyByThree === 20 || 30 || 40 || 50){
+    //   converted.push("Beep");
+    } else {
+      converted.push(divisiblyByThree);
+    }
+  });
+
+
+  return converted;
 }
 
 
