@@ -14,6 +14,7 @@ This is a web application that takes a number from a user and returns a range of
 
 ## Objectives
 
+* Program takes a number from a user, and returns a range of numbers from 0 to the inputed number. Example input: 5, Example output, [0,1,2,3,4,5]
 * Program replaces 0 with "beep!". Example input: 0, Example output, ["Beep!"]
 * Program replaces 1 with "Boop!". Example input: 1, Example output, ["Boop!"]
 * Program replaces numbers divisible by 3 with "I'm sorry, Dave. I'm afraid I can't do that." Example input: 3, Example output, ["I'm sorry, Dave. I'm afraid I can't do that."]
