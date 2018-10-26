@@ -1,8 +1,3 @@
-function nameOfUser(name){
-   var name = [];
-}
-
-
 
 function numberToConvert(number){
 
@@ -39,13 +34,17 @@ function numberToConvert(number){
   return converted;
 }
 
+function nameOfUser(name){
+
+}
+
 // User Interface Logic
 
 $(document).ready(function(){
   $("#name").submit(function(event){
     event.preventDefault();
 
-  var inputName = ("input#persons-name");
+  var inputName = $("input#persons-name").val();
   var nameToUse = nameOfUser(inputName);
 
   $("#introduction").hide();
