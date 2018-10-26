@@ -9,3 +9,13 @@ body {
   border: 4px solid black;
   text-align: center;
 }
+
+.robot {
+  width: 35%;
+  padding: 20px;
+  float: left;
+}
+
+p {
+  float: right;
+}
