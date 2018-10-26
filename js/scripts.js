@@ -3,7 +3,11 @@ function numberToConvert(number){
   var range = [];
   var converted = [];
   for (var i = 0; i <= number; i++){
-    range.push(i);
+    if (number < 100){
+      range.push(i);
+    } else {
+      return "Please enter a number that is less than 100";
+    }
 
   }
   range.forEach(function(changeNumber){
