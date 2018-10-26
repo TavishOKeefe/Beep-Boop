@@ -34,18 +34,11 @@ function numberToConvert(number){
   return converted;
 }
 
-function nameOfUser(name){
-
-}
-
 // User Interface Logic
 
 $(document).ready(function(){
   $("#name").submit(function(event){
     event.preventDefault();
-
-  var inputName = $("input#persons-name").val();
-  var nameToUse = nameOfUser(inputName);
 
   $("#introduction").hide();
   $("#nitty-gritty").show();
