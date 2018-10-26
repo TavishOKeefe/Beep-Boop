@@ -1,3 +1,9 @@
+function nameOfUser(name){
+   var name = [];
+}
+
+
+
 function numberToConvert(number){
 
   var range = [];
@@ -36,6 +42,17 @@ function numberToConvert(number){
 // User Interface Logic
 
 $(document).ready(function(){
+  $("#name").submit(function(event){
+    event.preventDefault();
+
+  var inputName = ("input#persons-name");
+  var nameToUse = nameOfUser(inputName);
+
+  $("#introduction").hide();
+  $("#nitty-gritty").show();
+
+  });
+
   $("#talking").submit(function(event){
     event.preventDefault();
 

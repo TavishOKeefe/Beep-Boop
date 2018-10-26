@@ -1,3 +1,7 @@
+#nitty-gritty {
+  display: none;
+}
+
 body {
   font-family: courier, monospace;
   margin: 15px;
@@ -11,8 +15,8 @@ body {
 }
 
 .robot {
-  width: 35%;
-  padding: 20px;
+  width: 25%;
+  padding: 10px;
   float: right;
 }
 
